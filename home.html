@@ -4,8 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>SamJ Sports</title>
+  <title>SamJ Movies</title>
   <style>
+    @font-face {
+        font-family: 'Font';
+        src: url('font.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
     iframe {
       position: absolute;
       top: 0;
@@ -15,11 +28,27 @@
       z-index: 1;
       border: none;
     }
+
+    h1 {
+      font-family: "Font", Arial, sans-serif;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #0A0A0A;
+      text-align: center;
+      margin: 0;
+      padding: 10px 0;
+      z-index: 2;
+      color: white;
+      font-size: 40px;
+    }
   </style>
 </head>
 
 <body>
-<iframe src="https://streamed.su"></iframe>
+  <h1>SamJ Sports</h1>
+  <iframe src="https://streamed.su"></iframe>
 </body>
 
 </html>
